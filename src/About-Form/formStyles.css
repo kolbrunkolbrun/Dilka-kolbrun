@@ -1,0 +1,85 @@
+* {
+    margin: 0;
+    padding: 0;
+
+  }
+  
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    background: rgb(255, 255, 255);
+    
+  }
+
+
+.form {
+  margin: auto;
+}
+
+.about-container {
+    margin-left: auto;
+    margin-right: auto;
+    width: 360px
+}
+
+.about-container p {
+  width:340px;
+  margin: auto;
+}
+
+.about-container h1 {
+  margin-bottom: 10px;
+}
+
+.contactform-container {
+    margin-left: auto;
+    margin-right: auto;
+    width: 360px;
+}
+
+.contactform-container h1 {
+  width:340px;
+  margin: auto;
+  margin-top: 2rem;
+}
+
+/* send button */
+.send {
+  all: unset;
+  background-color: #628E60;
+  color: white;
+  font-size: 20px;
+  padding: 10px 60px;
+  border-radius: 10px;
+  margin: 10px 0px;
+  cursor: pointer;
+  position: relative;
+}
+
+.subject input {
+    all: unset;
+    box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.2);
+    background-color: white;
+    color: white;
+    font-size: 20px;
+    padding: 10px 10px;
+    border-radius: 10px;
+    margin: 10px 0px;
+    cursor: pointer;
+    max-width: 300px;
+}
+
+.subject textarea {
+    all: unset;
+    box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.2);
+    background-color: white;
+    width: 250px;
+    height: 180px;
+    color: white;
+    font-size: 20px;
+    padding: 10px 10px;
+    border-radius: 10px;
+    margin: 10px 0px;
+    cursor: pointer;
+    max-width: 300px;
+}
